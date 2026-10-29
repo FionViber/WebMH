@@ -1,0 +1,9 @@
+Review date: 2026-10-30
+
+Scope: static deployment, resource integrity, JavaScript/JSON syntax, representative gameplay, browser-local saves, languages, multi-tab behavior, and desktop performance observations.
+No full playthrough of every item, seasonal event, room or possible state is claimed. Mobile-device performance and prolonged multi-hour sessions were not exhaustively benchmarked.
+
+Language: English for a fresh save, with English/Simplified Chinese selection in Settings > Language. Explicit language choices persist.
+The supplied static game code was retained. The asset inventory of 1,338 files matched the source manifest before publication changes. All JavaScript and JSON parse. Browser checks covered the opening, several merge levels, item generation, energy consumption/recovery, first-order completion, save checkpoint/reload, language switch/persistence, save export, invalid backup rejection and valid backup restoration.
+Desktop browser sample: approximately 22 MiB transferred for startup/observed scenes; no external host requests observed. JavaScript heap varied within tens of MiB. Browser scheduling changed with tab focus, so no game FPS guarantee is made.
+The original game repeats the initial tutorial if closed before completing its first order. Normal checkpoint continuation was verified after that order.
