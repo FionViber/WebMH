@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-29",
+  "release": "1.0.0",
+  "browser": "Codex in-app Chromium browser",
+  "server": "Ordinary static HTTP server at 127.0.0.1:8767; no proxy, response rewriting, CSP, request interception or external-network blocking",
+  "pathsTested": ["/", "/project/"],
+  "results": [
+    {"test": "Fresh installation", "result": "English opening story and initial tutorial; prior MSN/launcher progress is ignored"},
+    {"test": "Core gameplay", "result": "Manually merged the first generator, produced and merged carrots, and completed the first two orders"},
+    {"test": "Renovation", "result": "Spent 26 of 34 stars on the first repair, played its story, and reached room progress 1/10 with 8 stars remaining"},
+    {"test": "Refresh after first-order checkpoint", "result": "Board and 2-star progress restored"},
+    {"test": "Languages", "result": "Only English and Simplified Chinese appear; switching in both directions succeeds and persists across reload"},
+    {"test": "Settings", "result": "Language, local save management, sound and music controls; no account, advertisement, purchase or promotional controls"},
+    {"test": "Backup export", "result": "Downloaded actual JSON backups for both the first-order and first-renovation states"},
+    {"test": "Invalid backup", "result": "Rejected before replacing the current save"},
+    {"test": "Import earlier backup", "result": "Restored earlier board, 2 stars and English"},
+    {"test": "Import renovation backup", "result": "Restored board, 8 stars, Chinese and room progress 1/10"},
+    {"test": "Reset", "result": "After confirmation, returned to the English opening story; no renovation progress retained"},
+    {"test": "Root/subdirectory isolation", "result": "Root deployment started with its own fresh English save while the subdirectory retained its separate game"}
+  ],
+  "finalPageAssets": {"observed": 143, "external": 0, "scope": "Browser asset inventory of the final fresh-game page; not a recording of every possible later game state"},
+  "finalDocumentLanguage": "en",
+  "finalBuildConsoleWarningsAndErrors": [],
+  "fixedDuringTesting": ["A missing translation-key error on the English language button was corrected and its menu retested; only pre-fix logs remained in browser history"],
+  "automatedChecks": {"nativeSaveAndLanguageCases": 15, "nativeUiAndGameplayCases": 12, "result": "All passed; logs included alongside this report"},
+  "limitations": [
+    "Original early tutorial checkpoint is preserved: leaving before the first completed order restarts that short tutorial.",
+    "All 51 rooms and 1,145 declared renovation-step resources are included and audited, but not every room was manually played through.",
+    "No claim of absolute freedom from bugs in untested game states is made."
+  ],
+  "testSavesIncludedInPackage": false
+}

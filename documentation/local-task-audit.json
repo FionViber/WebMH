@@ -1,0 +1,147 @@
+{
+  "tutorials": [
+    {
+      "name": "\"booster\"",
+      "owner": "ButtonBoosterTutorial",
+      "remoteWords": []
+    },
+    {
+      "name": "TutorialScenario.BASIC_TUTORIAL_NAME",
+      "owner": "FlatMerge2BaseTutorial",
+      "remoteWords": []
+    },
+    {
+      "name": "\"merge2_generator_tutorial\"",
+      "owner": "Merge2GeneratorTutorial",
+      "remoteWords": []
+    },
+    {
+      "name": "Merge2NewUnitTutorial.NAME",
+      "owner": "Merge2NewUnitTutorial",
+      "remoteWords": []
+    },
+    {
+      "name": "Merge2SpeedUpTutorial.NAME",
+      "owner": "Merge2SpeedUpTutorial",
+      "remoteWords": []
+    },
+    {
+      "name": "\"merge2_units_shop_tutorial\"",
+      "owner": "Merge2UnitsShopTutorial",
+      "remoteWords": []
+    },
+    {
+      "name": "\"merge2_backpack_tutorial\"",
+      "owner": "Merge2BackpackTutorial",
+      "remoteWords": []
+    },
+    {
+      "name": "MergeCustomGeneratorTutorial.NAME",
+      "owner": "MergeCustomGeneratorTutorial",
+      "remoteWords": []
+    },
+    {
+      "name": "SideQuestTutorial.NAME",
+      "owner": "SideQuestTutorial",
+      "remoteWords": []
+    },
+    {
+      "name": "GeneratorMultiplierTutorial.NAME",
+      "owner": "GeneratorMultiplierTutorial",
+      "remoteWords": []
+    },
+    {
+      "name": "\"merge2_cup_tutorial\"",
+      "owner": "Merge2CupTutorial",
+      "remoteWords": []
+    },
+    {
+      "name": "\"merge2_start_fix_tutorial\"",
+      "owner": "Merge2StartFixTutorial",
+      "remoteWords": []
+    },
+    {
+      "name": "_.StickersBookStartTutorial2.NAME",
+      "owner": "_.StickersBookStartTutorial2",
+      "remoteWords": []
+    },
+    {
+      "name": "SeasonCollectionsStartTutorial2.NAME",
+      "owner": "SeasonCollectionsStartTutorial2",
+      "remoteWords": []
+    },
+    {
+      "name": "TreasureSearchTutorial.NAME",
+      "owner": "TreasureSearchTutorial",
+      "remoteWords": []
+    },
+    {
+      "name": "\"rave_reviews_tutorial\"",
+      "owner": "RaveReviewsTutorial",
+      "remoteWords": []
+    },
+    {
+      "name": "\"rave_reviews_reward_tutorial\"",
+      "owner": "RaveReviewsRewardTutorial",
+      "remoteWords": []
+    },
+    {
+      "name": "LightningRushTutorial.NAME",
+      "owner": "LightningRushTutorial",
+      "remoteWords": []
+    },
+    {
+      "name": "IslandDecorationTutorial.NAME",
+      "owner": "IslandDecorationTutorial",
+      "remoteWords": []
+    },
+    {
+      "name": "HungryGamesTutorial.NAME",
+      "owner": "HungryGamesTutorial",
+      "remoteWords": []
+    },
+    {
+      "name": "_.SeasonPassTutorial.NAME",
+      "owner": "_.SeasonPassTutorial",
+      "remoteWords": []
+    },
+    {
+      "name": "_.Merge2MissionTutorial.NAME",
+      "owner": "_.Merge2MissionTutorial",
+      "remoteWords": []
+    }
+  ],
+  "taskConfigs": [
+    {
+      "from": ",plugins:[\"~#/de123a297d.js\"]},weekly_goals_config:{urls:{},jsons:{weekly_goals_config_0_json:{data:",
+      "entries": [
+        {
+          "name": "LOGIN_DAYS"
+        },
+        {
+          "name": "COLLECT_STARS",
+          "event": "add_stars"
+        },
+        {
+          "name": "MERGE",
+          "event": "weeklygoals-merge"
+        },
+        {
+          "name": "USE_MISSION_CURRENCY",
+          "event": "use_shovels"
+        },
+        {
+          "name": "COMPLETE_ORDERS",
+          "event": "complete_order"
+        },
+        {
+          "name": "SPEND_HARD",
+          "event": "spend_hard"
+        },
+        {
+          "name": "MAKE_PURCHASE"
+        }
+      ]
+    }
+  ]
+}

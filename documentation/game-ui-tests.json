@@ -1,0 +1,233 @@
+{
+  "testedAt": "2026-10-28T18:20:54.816Z",
+  "tests": [
+    {
+      "name": "interstitial callback shape: continues once, no options mutation",
+      "status": "pass"
+    },
+    {
+      "name": "rewarded callback shape: cancellation is third, no reward or retry",
+      "status": "pass"
+    },
+    {
+      "name": "original VIP adapter preserves local cancelled-reward implementation in disabled mode",
+      "status": "pass"
+    },
+    {
+      "name": "actual weekly-goal config removes purchase task and preserves local merge/order/login tasks",
+      "status": "pass"
+    },
+    {
+      "name": "weekly-goal event subscription includes only local gameplay and user progress",
+      "status": "pass"
+    },
+    {
+      "name": "product filter preserves local prices, inventory, unit count and free daily claim",
+      "status": "pass"
+    },
+    {
+      "name": "generated product filter keeps earned-currency and free slots",
+      "status": "pass"
+    },
+    {
+      "name": "actual release mission registry preserves exactly three local side games",
+      "status": "pass"
+    },
+    {
+      "name": "actual merge plugin registration hides both ad elements before instantiation",
+      "status": "pass"
+    },
+    {
+      "name": "actual property-source callbacks use correct third-element method name",
+      "status": "pass"
+    },
+    {
+      "name": "actual shop plugin classes registered without ad alternative and with normal button width",
+      "status": "pass"
+    },
+    {
+      "name": "original merge energy shortage opens native local refill reward; no energy/ad store",
+      "status": "pass"
+    }
+  ],
+  "actualMissionRegistry": [
+    {
+      "key": "TYPE_KINGSCUP",
+      "name": "KingsCup",
+      "competition": true,
+      "feature": null,
+      "needsPayments": false
+    },
+    {
+      "key": "TYPE_TREASURE_SEARCH",
+      "name": "tsearch",
+      "competition": false,
+      "feature": null,
+      "needsPayments": false
+    },
+    {
+      "key": "TYPE_SPACE_RACE",
+      "name": "SpaceRace",
+      "competition": true,
+      "feature": null,
+      "needsPayments": false
+    },
+    {
+      "key": "TYPE_LEVEL_MASTERY",
+      "name": "LevelMastery",
+      "competition": false,
+      "feature": null,
+      "needsPayments": false
+    },
+    {
+      "key": "TYPE_LORYS_DERBY",
+      "name": "LorysDerby",
+      "competition": false,
+      "feature": null,
+      "needsPayments": false
+    },
+    {
+      "key": "TYPE_LIGHTNING_RUSH",
+      "name": "LightningRush",
+      "competition": true,
+      "feature": null,
+      "needsPayments": false
+    },
+    {
+      "key": "TYPE_ISLAND_DECORATION",
+      "name": "IslandDecoration",
+      "competition": false,
+      "feature": "island_decoration",
+      "needsPayments": false
+    },
+    {
+      "key": "TYPE_HUNGRY_GAMES",
+      "name": "HungryGames",
+      "competition": false,
+      "feature": null,
+      "needsPayments": false
+    },
+    {
+      "key": "TYPE_SEASON_PASS",
+      "name": "SeasonPass",
+      "competition": false,
+      "feature": "season_pass",
+      "needsPayments": false
+    },
+    {
+      "key": "TYPE_MERGE2_MISSION",
+      "name": "Merge2Mission",
+      "competition": false,
+      "feature": "merge2mission",
+      "needsPayments": false
+    }
+  ],
+  "weeklyGoals": [
+    {
+      "name": "LOGIN_DAYS",
+      "id": 1,
+      "retained": true
+    },
+    {
+      "name": "COLLECT_STARS",
+      "id": 2,
+      "event": "add_stars",
+      "retained": true
+    },
+    {
+      "name": "MERGE",
+      "id": 3,
+      "event": "weeklygoals-merge",
+      "retained": true
+    },
+    {
+      "name": "USE_MISSION_CURRENCY",
+      "id": 4,
+      "event": "use_shovels",
+      "retained": true
+    },
+    {
+      "name": "COMPLETE_ORDERS",
+      "id": 5,
+      "event": "complete_order",
+      "retained": true
+    },
+    {
+      "name": "SPEND_HARD",
+      "id": 6,
+      "event": "spend_hard",
+      "retained": true
+    },
+    {
+      "name": "MAKE_PURCHASE",
+      "id": 7,
+      "retained": false
+    }
+  ],
+  "adCallsites": [
+    {
+      "method": "showInterstitial",
+      "arguments": 1,
+      "owner": "cleverapps.afterResourceLoaded",
+      "source": "cleverapps.rewardedAdsManager.showInterstitial({limit:_.AdsLimits.TYPES.INTERSTITIAL,\nplacement:_.AdsLimits.TYPES.INTERSTITIAL_INACTIVE})"
+    },
+    {
+      "method": "showInterstitial",
+      "arguments": 2,
+      "owner": "RewardedAdsManager.prototype.showPreroll",
+      "source": "this.showInterstitial(_.AdsLimits.TYPES.PREROLL,a)"
+    },
+    {
+      "method": "playRewarded",
+      "arguments": 3,
+      "owner": "Booster.prototype.onPressed",
+      "source": "cleverapps.rewardedAdsManager.playRewarded(this.limit,()=>{cleverapps.focusManager.showControlsWhileFocused(this.getControls());_.Game.currentGame.counter.setTimeout(()=>{cleverapps.boosters.add(this.id);\nthis.execute(cleverapps.EVENTS.BOOSTERS_USE_TYPE.ADS);a()},400)},()=>{a()})"
+    },
+    {
+      "method": "playRewarded",
+      "arguments": 2,
+      "owner": "RewardedVideoToolbarItem.prototype.onClick",
+      "source": "cleverapps.rewardedAdsManager.playRewarded(_.AdsLimits.TYPES.TOOLBAR,this.giveReward.bind(this))"
+    },
+    {
+      "method": "showInterstitial",
+      "arguments": 2,
+      "owner": "_.Level.WantsToPlay",
+      "source": "cleverapps.rewardedAdsManager.showInterstitial({limit:_.AdsLimits.TYPES.INTERSTITIAL,placement:_.AdsLimits.TYPES.INTERSTITIAL_PLAY},\nf)"
+    },
+    {
+      "method": "playRewarded",
+      "arguments": 3,
+      "owner": "_.RewardMultiplierWindow",
+      "source": "cleverapps.rewardedAdsManager.playRewarded(_.AdsLimits.TYPES.FREEX2,()=>{cleverapps.metrics.logEvent(`${cleverapps.EVENTS.UNITS_SHOP_ITEM}_x2_ads`);\nthis.buyParams={videoBonus:!0};this.closed||this.close()},()=>{cleverapps.metrics.logEvent(`${cleverapps.EVENTS.UNITS_SHOP_ITEM}_x2_cancel`);this.close"
+    },
+    {
+      "method": "showInterstitial",
+      "arguments": 2,
+      "owner": "Placements.ENTRIES.interstitialInactive",
+      "source": "cleverapps.rewardedAdsManager.showInterstitial({limit:_.AdsLimits.TYPES.INTERSTITIAL,placement:_.AdsLimits.TYPES.INTERSTITIAL_INACTIVE},a)"
+    },
+    {
+      "method": "playRewarded",
+      "arguments": 3,
+      "owner": "_.ThirdElement.prototype.watch",
+      "source": "cleverapps.rewardedAdsManager.playRewarded(_.AdsLimits.TYPES.THIRD_ELEMENT_CREATE,()=>{this.accept();a&&a(!0)},()=>{a&&a(!1)})"
+    },
+    {
+      "method": "showInterstitial",
+      "arguments": 2,
+      "owner": null,
+      "source": "cleverapps.rewardedAdsManager.showInterstitial({limit:_.AdsLimits.TYPES.INTERSTITIAL,placement:_.AdsLimits.TYPES.INTERSTITIAL_OTHER},b)"
+    },
+    {
+      "method": "playRewarded",
+      "arguments": 2,
+      "owner": "Merge2UnitsShopTab.prototype.buyRefresh",
+      "source": "cleverapps.rewardedAdsManager.playRewarded(_.AdsLimits.TYPES.REFRESH_SHOP_PB,()=>{this.refreshProducts();a()})"
+    }
+  ],
+  "limitations": [
+    "No browser used. Rendering and late-game scene integration remain parent validation.",
+    "Callback and lazy registration tests execute actual release factory/plugin code; gameplay world and Cocos rendering are mocked."
+  ]
+}

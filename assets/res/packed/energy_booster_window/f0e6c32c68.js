@@ -1,0 +1,3 @@
+(function(){cc.BundleLoader.definePlugin("energy_booster_window",(plugin,_,cleverapps,bundles)=>{var EnergyBoosterWindowPropertySource=class extends _.ScriptComponent{getTimeLeft(){return cleverapps.energyBooster.getLeftTime()}};plugin.register({install:()=>{_.Prefab.registerComponent("EnergyBoosterWindowPropertySource",EnergyBoosterWindowPropertySource)},uninstall:()=>{_.Prefab.unregisterComponent("EnergyBoosterWindowPropertySource")}});
+plugin=undefined;});
+}.call(this));

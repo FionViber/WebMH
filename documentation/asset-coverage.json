@@ -1,0 +1,359 @@
+{
+  "bundles": 563,
+  "rooms": [
+    "room_0",
+    "room_1",
+    "room_2",
+    "room_3",
+    "room_4",
+    "room_5",
+    "room_6",
+    "room_7",
+    "room_8",
+    "room_9",
+    "room_10",
+    "room_11",
+    "room_12",
+    "room_13",
+    "room_14",
+    "room_15",
+    "room_16",
+    "room_17",
+    "room_18",
+    "room_19",
+    "room_20",
+    "room_21",
+    "room_22",
+    "room_23",
+    "room_24",
+    "room_25",
+    "room_26",
+    "room_27",
+    "room_28",
+    "room_29",
+    "room_30",
+    "room_31",
+    "room_32",
+    "room_33",
+    "room_34",
+    "room_35",
+    "room_36",
+    "room_37",
+    "room_38",
+    "room_39",
+    "room_40",
+    "room_41",
+    "room_42",
+    "room_43",
+    "room_44",
+    "room_45",
+    "room_46",
+    "room_47",
+    "room_48",
+    "room_49",
+    "room_50"
+  ],
+  "repairStages": 1145,
+  "languages": [
+    "ar",
+    "de",
+    "en",
+    "es",
+    "fr",
+    "it",
+    "ja",
+    "ko",
+    "lv",
+    "nl",
+    "pl",
+    "pt",
+    "ru",
+    "tr",
+    "zh"
+  ],
+  "dictionaryResources": [
+    {
+      "bundle": "main",
+      "key": "dictionary_ar",
+      "value": "~#/d4db787e7a.json"
+    },
+    {
+      "bundle": "main",
+      "key": "dictionary_de",
+      "value": "~#/454bf3cfe5.json"
+    },
+    {
+      "bundle": "main",
+      "key": "dictionary_es",
+      "value": "~#/43d09f1055.json"
+    },
+    {
+      "bundle": "main",
+      "key": "dictionary_fr",
+      "value": "~#/efe0e4d2c4.json"
+    },
+    {
+      "bundle": "main",
+      "key": "dictionary_it",
+      "value": "~#/8892ce55ca.json"
+    },
+    {
+      "bundle": "main",
+      "key": "dictionary_ja",
+      "value": "~#/346f0857c6.json"
+    },
+    {
+      "bundle": "main",
+      "key": "dictionary_ko",
+      "value": "~#/81ead497f1.json"
+    },
+    {
+      "bundle": "main",
+      "key": "dictionary_lv",
+      "value": "~#/7695964195.json"
+    },
+    {
+      "bundle": "main",
+      "key": "dictionary_nl",
+      "value": "~#/b1071e7dcd.json"
+    },
+    {
+      "bundle": "main",
+      "key": "dictionary_pl",
+      "value": "~#/ba82170f2a.json"
+    },
+    {
+      "bundle": "main",
+      "key": "dictionary_pt",
+      "value": "~#/de418bf8ff.json"
+    },
+    {
+      "bundle": "main",
+      "key": "dictionary_ru",
+      "value": "~#/46ccc78094.json"
+    },
+    {
+      "bundle": "main",
+      "key": "dictionary_tr",
+      "value": "~#/4aff4d0bc7.json"
+    },
+    {
+      "bundle": "main",
+      "key": "dictionary_zh",
+      "value": "~#/7023d932bf.json"
+    },
+    {
+      "bundle": "travel_map",
+      "key": "dictionary_ar",
+      "value": "~#/77b27bc5d5.json"
+    },
+    {
+      "bundle": "travel_map",
+      "key": "dictionary_de",
+      "value": "~#/06c80d8489.json"
+    },
+    {
+      "bundle": "travel_map",
+      "key": "dictionary_es",
+      "value": "~#/be2135e0e2.json"
+    },
+    {
+      "bundle": "travel_map",
+      "key": "dictionary_fr",
+      "value": "~#/2b77210050.json"
+    },
+    {
+      "bundle": "travel_map",
+      "key": "dictionary_it",
+      "value": "~#/eab40b5c2f.json"
+    },
+    {
+      "bundle": "travel_map",
+      "key": "dictionary_ja",
+      "value": "~#/38de4c8c9b.json"
+    },
+    {
+      "bundle": "travel_map",
+      "key": "dictionary_ko",
+      "value": "~#/391fe2ca35.json"
+    },
+    {
+      "bundle": "travel_map",
+      "key": "dictionary_lv",
+      "value": "~#/5dc07b2535.json"
+    },
+    {
+      "bundle": "travel_map",
+      "key": "dictionary_nl",
+      "value": "~#/1da641bee4.json"
+    },
+    {
+      "bundle": "travel_map",
+      "key": "dictionary_pl",
+      "value": "~#/474cf2914b.json"
+    },
+    {
+      "bundle": "travel_map",
+      "key": "dictionary_pt",
+      "value": "~#/6c0439f239.json"
+    },
+    {
+      "bundle": "travel_map",
+      "key": "dictionary_ru",
+      "value": "~#/f25372a1ca.json"
+    },
+    {
+      "bundle": "travel_map",
+      "key": "dictionary_tr",
+      "value": "~#/8bec81dae7.json"
+    },
+    {
+      "bundle": "travel_map",
+      "key": "dictionary_zh",
+      "value": "~#/cae1e05daf.json"
+    },
+    {
+      "bundle": "units_main",
+      "key": "dictionary_ar",
+      "value": "~#/50d421714e.json"
+    },
+    {
+      "bundle": "units_main",
+      "key": "dictionary_de",
+      "value": "~#/62db1b5572.json"
+    },
+    {
+      "bundle": "units_main",
+      "key": "dictionary_es",
+      "value": "~#/c7e1555f90.json"
+    },
+    {
+      "bundle": "units_main",
+      "key": "dictionary_fr",
+      "value": "~#/fe73b081e4.json"
+    },
+    {
+      "bundle": "units_main",
+      "key": "dictionary_it",
+      "value": "~#/44726b7f05.json"
+    },
+    {
+      "bundle": "units_main",
+      "key": "dictionary_ja",
+      "value": "~#/3d65651c88.json"
+    },
+    {
+      "bundle": "units_main",
+      "key": "dictionary_ko",
+      "value": "~#/8ae940f9cb.json"
+    },
+    {
+      "bundle": "units_main",
+      "key": "dictionary_lv",
+      "value": "~#/512d39e9bc.json"
+    },
+    {
+      "bundle": "units_main",
+      "key": "dictionary_nl",
+      "value": "~#/a946135bb9.json"
+    },
+    {
+      "bundle": "units_main",
+      "key": "dictionary_pl",
+      "value": "~#/3264819393.json"
+    },
+    {
+      "bundle": "units_main",
+      "key": "dictionary_pt",
+      "value": "~#/8e30f736c8.json"
+    },
+    {
+      "bundle": "units_main",
+      "key": "dictionary_ru",
+      "value": "~#/9708e7da15.json"
+    },
+    {
+      "bundle": "units_main",
+      "key": "dictionary_tr",
+      "value": "~#/4c56c947f6.json"
+    },
+    {
+      "bundle": "units_main",
+      "key": "dictionary_zh",
+      "value": "~#/b806a0f077.json"
+    }
+  ],
+  "inlineResources": 45,
+  "pluginBundles": [
+    "ad_error_window",
+    "backpack_window",
+    "choose_line_window",
+    "controlbuttons",
+    "energy_booster_window",
+    "error_window",
+    "generator_multiplier_icon",
+    "hungry_games_cooldown_window",
+    "hungry_games_guide_window",
+    "hungry_games_reward_window",
+    "hungry_games_start_competition_window",
+    "hungry_games_start_window",
+    "hungry_games_window",
+    "island_decoration_main_window",
+    "island_decoration_preview_window",
+    "island_decoration_start_window",
+    "kingscup_start_window",
+    "kingscup_window",
+    "levelmastery",
+    "lighting_rush",
+    "lorys_derby",
+    "menubar",
+    "merge",
+    "merge2mission",
+    "new_task_progress_bar",
+    "new_task_window",
+    "noads_window",
+    "offerwindow_controller",
+    "pin_confirmation_window",
+    "questsgroupicon",
+    "rainbow_confirmation_window",
+    "rave_reviews_icon",
+    "rave_reviews_scroll_icon",
+    "season_pass_completed_tasks_window",
+    "season_pass_confirmation_window",
+    "season_pass_finish_window",
+    "season_pass_last_chance_window",
+    "season_pass_main_window",
+    "season_pass_new_tasks_window",
+    "season_pass_points_reward_view",
+    "season_pass_purchase_cards",
+    "season_pass_purchase_window",
+    "season_pass_quest_complete_animation_prefab",
+    "season_pass_quest_row",
+    "season_pass_questsgroupicon_prefab",
+    "season_pass_stage_row",
+    "season_pass_start_window",
+    "season_pass_tooltip_prefab",
+    "sidebar",
+    "soft_conversion_window",
+    "space_race",
+    "space_race_start_window",
+    "sticker2",
+    "stickers2_book_season_window",
+    "stickers2_book_window",
+    "stickers2_collection_window",
+    "stickers2_completed_window",
+    "stickers2_reward_window",
+    "stickers2_shop",
+    "tile_shop",
+    "toolbar",
+    "travel_map",
+    "treasuresearch",
+    "units_library",
+    "upmenu",
+    "weekly_goals",
+    "weekly_goals_icon",
+    "windows"
+  ],
+  "repairConfigStages": 1300,
+  "languageNotes": "English dictionaries are packed in main/ui/units_main atlas JSON; the other fourteen languages are lazy JSON URLs included in asset-paths.json."
+}

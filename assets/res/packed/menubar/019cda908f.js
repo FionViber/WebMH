@@ -1,0 +1,3 @@
+(function(){cc.BundleLoader.definePlugin("menubar",(plugin,_,cleverapps,bundles)=>{var MenuBarComponent=class extends _.BaseComponent{onCreate(){this.items=cleverapps.menuBar.getSceneItems()}listItems(){return this.items}onResize(){this.node.reshape()}createItemView(a){return new (a.item.getViewClass())(a.item)}getControlName(a){return a.item.getControlName()}getHiddenByDefault(a){return a.item.hiddenByDefault}};plugin.register({install:()=>{_.Prefab.registerComponent("MenuBarComponent",MenuBarComponent)},uninstall:()=>{_.Prefab.unregisterComponent("MenuBarComponent")}});
+plugin=undefined;});
+}.call(this));

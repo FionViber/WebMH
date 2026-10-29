@@ -1,0 +1,19 @@
+.haven-save-dialog{box-sizing:border-box;position:fixed;inset:0;margin:auto;width:min(92vw,460px);max-height:90dvh;overflow:auto;border:3px solid #f17fa5;border-radius:22px;background:#fff7e5;color:#573323;padding:25px;box-shadow:0 16px 70px #2a132766;text-align:left;font:16px/1.5 system-ui,sans-serif;z-index:10000}
+.haven-save-dialog::backdrop{background:#211128b3}
+.haven-save-dialog h1{font-size:25px;line-height:1.2;margin:0 0 14px;color:#9b325b}
+.haven-save-dialog p{margin:10px 0}
+.haven-save-intro{color:#6d5044}
+.haven-save-status{font-size:13px;color:#726057}
+.haven-save-actions{display:grid;gap:10px;margin-top:20px}
+.haven-save-dialog button{font:inherit;font-weight:600;border:1px solid #cdbd99;border-radius:12px;padding:11px 16px;background:#fffdf6;color:#593b2b;cursor:pointer;min-height:44px}
+.haven-save-dialog button:hover{filter:brightness(.97)}
+.haven-save-dialog button:focus-visible{outline:3px solid #b35383;outline-offset:3px}
+.haven-save-dialog .haven-primary{background:#75ab39;border-color:#578827;color:#fff}
+.haven-save-dialog .haven-reset{color:#9c3d39;background:transparent;border-color:transparent}
+.haven-save-dialog .haven-save-close{width:100%;margin-top:8px;background:#f8e5ca}
+.haven-save-dialog .haven-error{color:#a32c2c}
+.haven-save-message{min-height:24px;font-size:14px;overflow-wrap:anywhere}
+.haven-save-confirm button{margin-right:8px;margin-top:8px}
+.haven-save-dialog [hidden]{display:none!important}
+.haven-save-dialog [disabled]{opacity:.55;cursor:wait}
+.haven-storage-alert{position:fixed;z-index:11000;bottom:10px;left:50%;transform:translateX(-50%);max-width:90vw;padding:12px 18px;border-radius:12px;background:#fff0da;color:#9a3030;box-shadow:0 3px 20px #3219;font:14px/1.5 system-ui,sans-serif}

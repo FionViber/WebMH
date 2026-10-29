@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-29",
+  "release": "1.0.0",
+  "originalGameVersion": "1.510.15",
+  "missing": [],
+  "jsonFilesParsed": 437,
+  "jsFilesParsed": 73,
+  "restCalls": [],
+  "browserApiOverrides": [],
+  "externalNetworkCalls": [],
+  "xhrAssetLoaders": [
+    {
+      "file": "assets/cleverapps/res/cocoslib-3_17_2-89d928e466.js",
+      "name": "window.XMLHttpRequest"
+    },
+    {
+      "file": "assets/cleverapps/res/cocoslib-3_17_2-89d928e466.js",
+      "name": "XMLHttpRequest"
+    },
+    {
+      "file": "assets/cleverapps/res/cocoslib-3_17_2-89d928e466.js",
+      "name": "XMLHttpRequest"
+    },
+    {
+      "file": "assets/cleverapps/res/cocoslib-3_17_2-89d928e466.js",
+      "name": "XMLHttpRequest"
+    },
+    {
+      "file": "assets/game-v1.510.15-ca3a04d505.js",
+      "name": "XMLHttpRequest"
+    },
+    {
+      "file": "assets/game-v1.510.15-ca3a04d505.js",
+      "name": "XMLHttpRequest"
+    }
+  ],
+  "externalHtmlResources": [],
+  "httpFailures": [],
+  "cspHeaderPresent": false,
+  "rootAndSubdirectory": true,
+  "observedMissingRequests": [],
+  "checkedFiles": 1338,
+  "payloadBytesExcludingThisReport": 189511826,
+  "maxFileBytes": 3433816,
+  "method": {
+    "network": "AST inspection of named REST transports, fetch, WebSocket, EventSource, beacon and service-worker calls, plus removal of known SDK and dynamic remote-image loaders. This is a targeted source audit, not a proof about every possible execution state.",
+    "resources": "Every shipped file was requested with HEAD from an ordinary local static host. Entry points were loaded from the root and a project subdirectory.",
+    "runtime": "Browser observations and gameplay scope are recorded separately in browser-validation.json.",
+    "inventory": "Snapshot before generating package-manifest.json. That manifest records the final packaged payload hashes. Local asset XHR remains necessary and is not external networking."
+  },
+  "scope": {
+    "rooms": 51,
+    "declaredRenovationSteps": 1145,
+    "visibleLanguages": [
+      "en",
+      "zh"
+    ],
+    "allRoomsPlayed": false
+  }
+}

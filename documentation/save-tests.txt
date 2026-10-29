@@ -1,0 +1,16 @@
+PASS deployment path normalization
+PASS fresh namespace ignores old test save
+PASS Chinese choice and document language persist after reload
+PASS language labels use the native dictionary without missing-key errors
+PASS export flushes real native save queue and validates checksum
+PASS wrong project/schema/entry type/checksum rejected without writes
+PASS import restores data and freezes pending writes until reload
+PASS staging quota failure preserves original save
+PASS destination write failure rolls back previous native save
+PASS persistent storage failure exports in-memory recovery honestly
+PASS reset removes only current native namespace and keeps language preference
+PASS other tabs freeze queues and receive revision conflict
+PASS a new native client session retires the old localhost writer
+PASS backup moves between deployment paths with validated key mapping
+PASS actual browser backup without untouched default settings validates and imports
+TOTAL 15 checks passed; native DataLoader methods were extracted from original game.

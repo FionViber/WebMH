@@ -1,0 +1,76 @@
+{
+  "tests": 12,
+  "passed": 12,
+  "missions": [
+    {
+      "key": "TYPE_KINGSCUP",
+      "name": "KingsCup",
+      "competition": true,
+      "feature": null,
+      "needsPayments": false
+    },
+    {
+      "key": "TYPE_TREASURE_SEARCH",
+      "name": "tsearch",
+      "competition": false,
+      "feature": null,
+      "needsPayments": false
+    },
+    {
+      "key": "TYPE_SPACE_RACE",
+      "name": "SpaceRace",
+      "competition": true,
+      "feature": null,
+      "needsPayments": false
+    },
+    {
+      "key": "TYPE_LEVEL_MASTERY",
+      "name": "LevelMastery",
+      "competition": false,
+      "feature": null,
+      "needsPayments": false
+    },
+    {
+      "key": "TYPE_LORYS_DERBY",
+      "name": "LorysDerby",
+      "competition": false,
+      "feature": null,
+      "needsPayments": false
+    },
+    {
+      "key": "TYPE_LIGHTNING_RUSH",
+      "name": "LightningRush",
+      "competition": true,
+      "feature": null,
+      "needsPayments": false
+    },
+    {
+      "key": "TYPE_ISLAND_DECORATION",
+      "name": "IslandDecoration",
+      "competition": false,
+      "feature": "island_decoration",
+      "needsPayments": false
+    },
+    {
+      "key": "TYPE_HUNGRY_GAMES",
+      "name": "HungryGames",
+      "competition": false,
+      "feature": null,
+      "needsPayments": false
+    },
+    {
+      "key": "TYPE_SEASON_PASS",
+      "name": "SeasonPass",
+      "competition": false,
+      "feature": "season_pass",
+      "needsPayments": false
+    },
+    {
+      "key": "TYPE_MERGE2_MISSION",
+      "name": "Merge2Mission",
+      "competition": false,
+      "feature": "merge2mission",
+      "needsPayments": false
+    }
+  ]
+}
