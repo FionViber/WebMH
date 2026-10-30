@@ -7,8 +7,8 @@
   "excludes": [
     "package-manifest.json"
   ],
-  "payloadFiles": 1340,
-  "totalPayloadBytes": 189516068,
+  "payloadFiles": 1341,
+  "totalPayloadBytes": 189218421,
   "files": [
     {
       "path": ".nojekyll",
@@ -16,19 +16,19 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
-      "path": "assets/cleverapps/res/cocoslib-3_17_2-89d928e466.js",
-      "bytes": 510801,
-      "sha256": "d1333f6f464611e4050200cbfda9881ca9556e291d68f1b55ef1b855ce51a5c7"
+      "path": "assets/cleverapps/res/cocoslib-3_17_2-b1e3ba2e12.js",
+      "bytes": 510798,
+      "sha256": "b1e3ba2e1284101904f3afe62cecd702dfc0f85a2f1bc1020e7a297bc6be1404"
     },
     {
-      "path": "assets/connector-v1.510.15-3a4d1a2506.js",
-      "bytes": 407584,
-      "sha256": "c35797b3a9a0e8cb29e919cdd11c3da002e4b84147d480659f2243944bb10c22"
+      "path": "assets/connector-v1.510.15-e889edfe86.js",
+      "bytes": 149080,
+      "sha256": "e889edfe86285ecae691ff47d665bdbed1bf7ba0372121bf551c36c5fa48616e"
     },
     {
-      "path": "assets/game-v1.510.15-ea4756304f.js",
-      "bytes": 3299928,
-      "sha256": "ea4756304febf022b4032061e158398d2e6dfbed44aed8219fefd59d7d23038f"
+      "path": "assets/game-v1.510.15-3b42a931e7.js",
+      "bytes": 3264647,
+      "sha256": "3b42a931e7f05eca2a988ef3461048fc6fa9088bb2689c54e9c774d34ddf5f0c"
     },
     {
       "path": "assets/res/loading-93ca38ec22.gif",
@@ -881,9 +881,9 @@
       "sha256": "ffd0f5998563881b7d84a2dac39a21fcbd3b2383ac2ce8d2c9cd801b4ea5085d"
     },
     {
-      "path": "assets/res/packed/error_window/a6af26451f.js",
-      "bytes": 2601,
-      "sha256": "117927a2a48ed203e5d7d3dca74471890e916afb16585d992edca8a93d122a77"
+      "path": "assets/res/packed/error_window/f04c767d26.js",
+      "bytes": 1888,
+      "sha256": "f04c767d26781aa10594d82ba4b1f6eeefa8e7f3f66d4dcb1fc0b6c25fd25e9d"
     },
     {
       "path": "assets/res/packed/fireworks/h1000webp/1b2e787cd9.png",
@@ -6602,8 +6602,8 @@
     },
     {
       "path": "config.js",
-      "bytes": 12849,
-      "sha256": "64d51992447ab95484734eca139a2faab35988b19cb02c57a5e41847be568078"
+      "bytes": 8074,
+      "sha256": "8461ed51cf5150c25225786e81321e0ac8b77a56a6f4d32873e251e15373573e"
     },
     {
       "path": "documentation/asset-coverage.json",
@@ -6682,8 +6682,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 2452,
-      "sha256": "e710efaea715e3762ec14f0f91b23c170cf60b627cd86284b5ed5270cfe4b4fc"
+      "bytes": 2439,
+      "sha256": "834d5be153223877dd86a8723f282f37f665ba8f58a9d1ea98f6f73db27d6a47"
     },
     {
       "path": "local-ui.css",
@@ -6707,8 +6707,13 @@
     },
     {
       "path": "REVIEW.txt",
-      "bytes": 1595,
-      "sha256": "a9e96d3a9bd4a3a765d6b48b4651a0051ad7960ea252d8196f6844302bc78a3b"
+      "bytes": 1668,
+      "sha256": "f0c82612bbdd9595a3c180888475f347598caa4ef2608f0415314f719dd00506"
+    },
+    {
+      "path": "OFFLINE-AUDIT.txt",
+      "bytes": 1569,
+      "sha256": "d832327740e76eee8ef67cd0086e48826951eb83d980ee153cc2832454321207"
     }
   ]
 }

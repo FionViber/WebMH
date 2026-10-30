@@ -1,0 +1,9 @@
+Offline integration cleanup - 2026-10-30
+
+Removed 97 platform, social, advertising, payment and analytics implementations, plus remote-storage transports and push-notification senders. Removed the cross-promotion catalog, remote configuration metadata, outbound platform URL builders, ad-tier configuration, ad tracking timer and stale error-report server endpoint. Connector startup uses only the local platform and no longer accepts remote service URLs from page parameters.
+
+Local save, event and compatibility interfaces remain where the game expects them; these interfaces have no external service implementation. Native static resource and audio XHR loaders remain. Browser fetch, WebSocket, beacon, external window-opening and service-worker entry points were not found in the application call-site audit. TexturePacker attribution metadata and license comments are retained; they do not make requests.
+
+Regression checks: existing save restored; item generation and energy deduction worked; merging worked; save export and import restored the updated board. Runtime observations showed no external hosts, no HTTP failures and no browser console errors. The error-report action was unit-tested to copy local diagnostic text only. The original browser save namespace is preserved. No global browser API interception or network-blocking CSP is used.
+
+Shared sprites, translation keys and harmless type identifiers may retain original platform-related names. These are not active network integrations. The audit does not claim a playthrough of every room or event.
