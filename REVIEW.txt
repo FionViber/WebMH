@@ -7,3 +7,5 @@ Language: English for a fresh save, with English/Simplified Chinese selection in
 The supplied static game code was retained. The asset inventory of 1,338 files matched the source manifest before publication changes. All JavaScript and JSON parse. Browser checks covered the opening, several merge levels, item generation, energy consumption/recovery, first-order completion, save checkpoint/reload, language switch/persistence, save export, invalid backup rejection and valid backup restoration.
 Desktop browser sample: approximately 22 MiB transferred for startup/observed scenes; no external host requests observed. JavaScript heap varied within tens of MiB. Browser scheduling changed with tab focus, so no game FPS guarantee is made.
 The original game repeats the initial tutorial if closed before completing its first order. Normal checkpoint continuation was verified after that order.
+
+Security review: removed an unused public WeChat application identifier inherited from the original game package. No associated AppSecret was found in the targeted scan. Original finding details were backed up privately outside this repository.
